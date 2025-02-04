@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Counter from "./components/Counter";
+import UserForm from "./components/UserForm"
 
 const Home = () => <h1>Home Page</h1>;
-const UserForm = () => <h1>User Form Page</h1>;
 const Editor = () => <h1>Rich Text Editor Page</h1>;
 
 function App() {
