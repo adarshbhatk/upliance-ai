@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import Counter from "./components/Counter";
 
 const Home = () => <h1>Home Page</h1>;
-const Counter = () => <h1>Counter Page</h1>;
 const UserForm = () => <h1>User Form Page</h1>;
 const Editor = () => <h1>Rich Text Editor Page</h1>;
 
